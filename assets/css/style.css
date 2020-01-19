@@ -1,14 +1,40 @@
+@media screen and (max-width: 768px) {
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .nav-item{
+        margin-left: 10px;
+    }
+}    
 @media screen and (max-width: 640px) {
     .img{width: 100%;
     }
     .cb{
         padding-bottom: 100px;
     }
-    .navbar{
-        background-color: teal !important;
+    .tc{
+        margin-left: 0 !important;
+        max-width: 640px !important ;
     }
     .container-fluid{
         padding-bottom: 0px;
         background-color: teal;
+    }
+    .navbar-brand{
+        width: 680px !important;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .navbar-nav{
+        flex-direction: row;
+        margin: 0 auto !important;
+        text-align: center;
+        max-width: 400px;
+        width: 100%;
+    }
+    .nav-item{
+        text-align: center;
+        margin:auto !important;
     }
  }  
